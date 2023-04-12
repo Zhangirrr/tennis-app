@@ -1,0 +1,41 @@
+{
+    "cards": [
+        {
+            "id": 0,
+            "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/04/zero-two-feature.jpg",
+            "date": "22 июля 2022 года",
+            "text": "Consequat consequat augue quis urna arcu scelerisque ac montes, sed. Arcu orci quam lectus orci in.",
+            "buttonText": "Click me!"
+          },
+          {
+            "id": 1,
+            "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/04/zero-two-feature.jpg",
+            "date": "4 апреля 2022 года",
+            "text": "Suspendisse orci fermentum congue enim risus velit neque. Mi."
+          },
+          {
+            "id": 2,
+            "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/04/zero-two-feature.jpg",
+            "date": "30 ноября 2021 года",
+            "text": "Interdum proin amet nibh tortor sed vulputate mattis. Ridiculus porta ipsum neque ut vel vitae et."
+          },
+          {
+            "id": 3,
+            "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/04/zero-two-feature.jpg",
+            "date": "22 июля 2022 года",
+            "text": "Nisl tempor vel tempor adipiscing id nulla magnis ut ultrices. Malesuada metus et in blandit."
+          },
+          {
+            "id": 4,
+            "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/04/zero-two-feature.jpg",
+            "date": "22 июля 2022 года",
+            "text": "Libero fermentum pretium sed orci nunc, sagittis mollis lacus dolor. Tincidunt et enim sed ac faucibus."
+          },
+          {
+            "id": 5,
+            "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/04/zero-two-feature.jpg",
+            "date": "22 июля 2022 года",
+            "text": "Netus hendrerit tortor laoreet duis proin nulla faucibus ultricies. Et urna fringilla nunc, metus nec."
+          }
+    ]
+}

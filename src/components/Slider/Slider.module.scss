@@ -24,6 +24,10 @@
     padding: 25px 20px;
     border: 1px solid hsla(30, 58%, 93%, 1);
     height: 500px;
+
+    @media (max-width: 600px) {
+      height: 300px;
+    }
   }
 
   .swiper {

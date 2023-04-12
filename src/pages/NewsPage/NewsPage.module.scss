@@ -1,0 +1,14 @@
+@import "~/src/styles/mixins";
+
+.grid {
+    @include container();
+    display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    gap: 20px;
+    padding-bottom: 40px;
+    
+    @media (max-width: 800px) {
+        // grid-template-columns: repeat(2, 1fr);
+    }
+}
