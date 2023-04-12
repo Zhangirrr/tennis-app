@@ -15,6 +15,13 @@
   }
 }
 
+@mixin container($max-width: 1376px, $padding : 40px) {
+  width: 100%;
+  max-width: $max-width;
+  padding: 0 $padding;
+  margin: 0 auto;
+}
+
 // .button {
 
 // 	@include desktop(){

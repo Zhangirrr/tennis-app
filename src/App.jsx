@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Router from "./Router";
+
+import "./styles/main.scss";
+import HeightSetter from "./components/helpers/HeightSetter";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <>
+      <Router />
+      <HeightSetter />
+    </>
+  );
 }
 
-export default App
+export default App;

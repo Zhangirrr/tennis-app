@@ -1,0 +1,20 @@
+@import "~/src/styles/mixins";
+
+$headerHeight: 100px;
+$footerHeight: 100px;
+
+.header {
+  background-color: hsla(120, 50%, 80%, 1);
+  height: $headerHeight;
+}
+.main {
+  min-height: calc(var(--height, 100vh) - $headerHeight - $footerHeight);
+}
+.container {
+  @include container();
+}
+
+.footer {
+  background-color: hsla(220, 50%, 80%, 1);
+  height: $footerHeight;
+}
