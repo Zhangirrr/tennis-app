@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import TennisCard from "../../components/TennisCard/TennisCard";
-import s from "./NewsPage.module.scss"
+import s from "./NewsPage.module.scss";
 
-const endpoint = "http://localhost:3001";
+const endpoint = process.env.REACT_APP_ENDPOINT || "";
 
 function NewsPage() {
   const [cards, setCards] = useState([]);
@@ -22,6 +22,7 @@ function NewsPage() {
         cards.map((elem) => (
           <TennisCard
             key={elem.id}
+            id={elem.id}
             image={elem.image}
             date={elem.date}
             text={elem.text}
